@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
+#title{
+    font-family: 'Inconsolata', 'Consolas', monospace;
+    font-size: 25pt;
+}
+
+header{
+    padding: 10px;
+    background: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#selcan{
+    font-weight: 300;
+    font-family: 'Yeon Sung', 'Nanum Pen Script', cursive;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-color: white;
+    color:white;    
+    border-bottom-color: white;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.nguessclick{
+    color: orangered;
+    background: white;
+    font-size: 23pt;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    font-family: 'Yeon Sung', 'Inconsolata', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nguessclick:hover{
+    border-color: white;
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+.candies{
+    height: 250px;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.thumb{
+    height: 150px;
+}
+
+.iname{
+    font-family: 'Yeon Sung';
+    color:white;
+    font-weight: 200;
+    background: orangered;
+    padding: 0;   
+    margin: 0;
+}
+
+.buyclick{
+    font-family: 'Nanum Pen Script', 'Yeon Sung';
+    font-size: 22px;
+    color: orangered;
+    background:white;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s; 
+}
+
+.buyclick:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
+.items{
+    display: inline-block;
+    border: 5px solid orangered;
+    border-radius: 15px;
+    background: white;
+    width: 250px;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19); 
+}
+
+.candies:hover, .candies2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.candies2{
+    height: 225px;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+
+html{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://www.transparenttextures.com/patterns/brushed-alum.png);
+    min-height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+.tab{
+    color:orangered;
+    background: white;
+    font-size: 23pt;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    font-family: 'Nanum Pen Script', 'Inconsolata', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tab:hover{
+    color: white;
+    background: #ff4b1f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

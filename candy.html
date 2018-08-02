@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Candy Hover</title>
+    <link rel="stylesheet" type="text/css" href="shared.css">
+</head>
+<body>
+    <header>
+        <span id="title">My JS Snippets&nbsp;&nbsp;</span>  
+        <button onclick="window.location.href = 'index.html'" class="tab">Home</button>
+        <button class="tab">Candy</button>
+        <button onclick="window.location.href = 'elecshop.html'" class="tab">Shop</button>
+    </header>
+    <br>
+    <center>
+        <h1 id=selcan>Selected Candy: None</h1>
+        <br>
+        <img onmouseover="document.getElementById('selcan').innerHTML = 'Selected Candy: Cake Pops'" onmouseout="document.getElementById('selcan').innerHTML = 'Selected Candy: None'" class="candies" src="https://cdn.shopify.com/s/files/1/0650/6377/products/CB-121RD_D1_1024x1024.jpg?v=1444722833">
+        <img onmouseover="document.getElementById('selcan').innerHTML = 'Selected Candy: Candy Corn'" onmouseout="document.getElementById('selcan').innerHTML = 'Selected Candy: None'" class="candies" src="https://c.tadst.com/gfx/750w/candy-corn-day-fun.jpg?1">
+        <img onmouseover="document.getElementById('selcan').innerHTML = 'Selected Candy: Haribo Gummies'" onmouseout="document.getElementById('selcan').innerHTML = 'Selected Candy: None'" class="candies" src="https://i.amz.mshcdn.com/AHrUTL-hflNcYccGEzgo4ExhAQs=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F482230%2F45acf607-823c-4f27-91f3-33639c03253a.jpg">
+        <br>
+        <img onmouseover="document.getElementById('selcan').innerHTML = 'Selected Candy: Cotton Candy Cupcakes'" onmouseout="document.getElementById('selcan').innerHTML = 'Selected Candy: None'" class="candies2" src="http://www.ohnuts.com/blog/wp-content/uploads/2014/09/cotton-candy-cupcakes-4.jpg">
+        <img onmouseover="document.getElementById('selcan').innerHTML = 'Selected Candy: KitKat Bars'" onmouseout="document.getElementById('selcan').innerHTML = 'Selected Candy: None'" class="candies2" src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/food-drink/2018/07/26/victory-for-kit-kat-copycats-nestle-loses-trademark-case-over-candy-bars-shape/_jcr_content/par/featured_image/media-0.img.jpg/931/524/1532617348453.jpg?ve=1&tl=1&text=big-top-image">
+        <img onmouseover="document.getElementById('selcan').innerHTML = 'Selected Candy: Lollipops'" onmouseout="document.getElementById('selcan').innerHTML = 'Selected Candy: None'" class="candies2" src="https://cdn.mos.cms.futurecdn.net/b28e9ca97942bb480c8aa046c886376f-480-80.jpg">
+        <br>
+    </center>
+
+</body>
+</html>
